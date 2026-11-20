@@ -1,0 +1,21 @@
+{
+  "port": 7884,
+  "qwen_url": "http://localhost:1235/v1",
+  "qwen_model": "qwen/qwen3.5-9b",
+  "qwen_adapter": "lmstudio",
+  "d1_url": "http://127.0.0.1:8081",
+  "key_file": "runtime/local-api-key.txt",
+  "max_workers": 3,
+  "model_timeout": 75,
+  "request_interval": 1.0,
+  "request_timeout": 12,
+  "memory_ttl_hours": 24,
+  "recurrence_seconds": 900,
+  "max_requests": 120,
+  "max_actions": 180,
+  "local_lab_origins": [],
+  "docker_image": "python:3.12-slim",
+  "llama_path": "runtime/llama/llama-server.exe",
+  "model_path": "models/d1-3B-Q4_K_M.gguf",
+  "projector_path": "models/mmproj-d1-3B-Q8_0.gguf"
+}
